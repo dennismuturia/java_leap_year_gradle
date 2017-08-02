@@ -3,7 +3,7 @@ import static org.junit.Assert.*;
 
 public class LeapYearTest{
   @Test
-  public isLeapYear_forNumberDIvisbleByFour_true{
+  public void isLeapYear_forDivisibleByFour_true(){
     LeapYear leapyear = new LeapYear();
     assertEquals(true, leapyear.isLeapYear(2012));
   }
